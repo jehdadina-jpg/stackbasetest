@@ -30,8 +30,6 @@
         <li><a href="#solution-detail">Platform</a></li>
         <li><a href="#how">How It Works</a></li>
         <li><a href="#terminal-section">Execution Control Plane</a></li>
-        <li><a href="#control-plane">Control Plane</a></li>
-        <li><a href="#usecases">Use Cases</a></li>
       </ul>
       <button class="mobile-menu-btn" aria-label="Toggle menu">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -42,6 +40,7 @@
         </svg>
       </button>
       <div class="nav-right">
+        <a href="mailto:jc@stackbase.systems" class="nav-cta">Contact</a>
       </div>
     </div>
   </nav>
@@ -174,17 +173,17 @@
             <div class="db-activity">
               <div class="db-act-item">
                 <span class="act-badge ok">DONE</span>
-                <span class="act-text">trade_settlement · TRD-00881A · Deutsche Bank</span>
+                <span class="act-text">trade_settlement · TRD-00881A </span>
                 <span class="act-time">2s ago</span>
               </div>
               <div class="db-act-item">
                 <span class="act-badge run">RUN</span>
-                <span class="act-text">risk_approval · RISK-443 · JPMorgan EMEA</span>
+                <span class="act-text">risk_approval · RISK-443 </span>
                 <span class="act-time">8s ago</span>
               </div>
               <div class="db-act-item">
                 <span class="act-badge ok">DONE</span>
-                <span class="act-text">reconciliation · REC-219 · Barclays Ops</span>
+                <span class="act-text">reconciliation · REC-219 </span>
                 <span class="act-time">14s ago</span>
               </div>
             </div>
@@ -201,7 +200,8 @@
     <div class="container">
       <div class="section-eyebrow reveal">The Execution Gap</div>
       <h2 class="section-h2 reveal delay-1">Problem<br /><span class="gradient-text">Why?</span></h2>
-      <p class="section-sub reveal delay-2">Most enterprises have already adopted AI for summarisation, reporting, and search. The problem isn't intelligence. <strong style="color:#fff;">The problem is execution.</strong></p>
+      <p class="section-sub reveal delay-2">Most enterprises have already adopted AI for summarisation, reporting, and
+        search. The problem isn't intelligence. <strong style="color:#fff;">The problem is execution.</strong></p>
 
       <div class="gap-grid">
         <div class="gap-card reveal delay-1">
@@ -212,17 +212,20 @@
         <div class="gap-card reveal delay-2">
           <div class="gap-num">02</div>
           <h3>AI has no business context</h3>
-          <p>Generic AI tools are trained on the internet — not your enterprise data, your workflows, or your policies. They answer in the abstract; your problems are specific.</p>
+          <p>Generic AI tools are trained on the internet — not your enterprise data, your workflows, or your policies.
+            They answer in the abstract; your problems are specific.</p>
         </div>
         <div class="gap-card reveal delay-3">
           <div class="gap-num">03</div>
           <h3>Execution requires trust</h3>
-          <p>Trust is the prerequisite. Enterprises will not let AI connect to systems &amp; data until escalation, governance, human approvals and a full audit trail exists.</p>
+          <p>Trust is the prerequisite. Enterprises will not let AI connect to systems &amp; data until escalation,
+            governance, human approvals and a full audit trail exists.</p>
         </div>
         <div class="gap-card reveal delay-4">
           <div class="gap-num">04</div>
           <h3>The execution gap is widening</h3>
-          <p>AI adoption is stuck at summarisation. The tools exist. The trusted execution layer between AI and enterprise workflows does not.</p>
+          <p>AI adoption is stuck at summarisation. The tools exist. The trusted execution layer between AI and
+            enterprise workflows does not.</p>
         </div>
       </div>
     </div>
@@ -236,33 +239,44 @@
       <div class="solution-row">
         <div class="solution-text reveal">
           <div class="section-eyebrow">Solution</div>
-          <h2 class="alt-h2">StackBase is the Governed Execution layer for<br /><span class="gradient-text">Enterprise AI.</span></h2>
+          <h2 class="alt-h2">StackBase is the Governed Execution layer for<br /><span class="gradient-text">Enterprise
+              AI.</span></h2>
           <p>It turns existing business workflows into secure, callable actions</p>
-          <p>….that any <span class="gradient-text" style="font-weight:700;">approved</span> AI agent can use — without bypassing enterprise systems, controls, or approvals.</p>
-          <p class="solution-highlight">Every action is permissioned, policy-checked, approval-gated when required, and fully auditable.</p>
+          <p>….that any <span class="gradient-text" style="font-weight:700;">approved</span> AI agent can use — without
+            bypassing enterprise systems, controls, or approvals.</p>
+          <p class="solution-highlight">Every action is permissioned, policy-checked, approval-gated when required, and
+            fully auditable.</p>
         </div>
         <div class="solution-visual reveal delay-2">
           <div class="term-window">
             <div class="term-bar">
-              <div class="term-dots"><span class="td red"></span><span class="td yellow"></span><span class="td green"></span></div>
+              <div class="term-dots"><span class="td red"></span><span class="td yellow"></span><span
+                  class="td green"></span></div>
               <div class="term-filename">stackbase@enterprise $ ai-query</div>
             </div>
             <div class="term-body">
-              <div class="term-line"><span class="tc-prompt">></span> <span class="tc-white">'How many reconciliation breaks are open in settlements today?'</span></div>
+              <div class="term-line"><span class="tc-prompt">></span> <span class="tc-white">'How many reconciliation
+                  breaks are open in settlements today?'</span></div>
               <div class="term-line tc-blank"></div>
-              <div class="term-line"><span class="tc-green">●</span> <span class="tc-dim">Connecting to operations system…</span></div>
+              <div class="term-line"><span class="tc-green">●</span> <span class="tc-dim">Connecting to operations
+                  system…</span></div>
               <div class="term-line"><span class="tc-green">●</span> <span class="tc-dim">Authenticating…</span></div>
-              <div class="term-line"><span class="tc-green">●</span> <span class="tc-dim">Reading settlement ledger</span> <span class="tc-tag info">[READ ONLY]</span></div>
-              <div class="term-line"><span class="tc-green">●</span> <span class="tc-dim">Comparing against bank statement...</span></div>
-              <div class="term-line"><span class="tc-green">●</span> <span class="tc-dim">Analysis complete.</span></div>
+              <div class="term-line"><span class="tc-green">●</span> <span class="tc-dim">Reading settlement
+                  ledger</span> <span class="tc-tag info">[READ ONLY]</span></div>
+              <div class="term-line"><span class="tc-green">●</span> <span class="tc-dim">Comparing against bank
+                  statement...</span></div>
+              <div class="term-line"><span class="tc-green">●</span> <span class="tc-dim">Analysis complete.</span>
+              </div>
               <div class="term-line tc-blank"></div>
               <div class="term-line"><span class="tc-white" style="font-weight:600;">14 open breaks found.</span></div>
-              <div class="term-line"><span class="tc-dim">  3 aged > 5 days  |  Largest: $2.1M</span></div>
+              <div class="term-line"><span class="tc-dim"> 3 aged > 5 days | Largest: $2.1M</span></div>
               <div class="term-line tc-blank"></div>
-              <div class="term-line"><span style="color:var(--amber);">⚠</span> <span class="tc-dim">Action required? Awaiting human</span></div>
-              <div class="term-line"><span class="tc-dim">  approval before any steps taken.</span></div>
+              <div class="term-line"><span style="color:var(--amber);">⚠</span> <span class="tc-dim">Action required?
+                  Awaiting human</span></div>
+              <div class="term-line"><span class="tc-dim"> approval before any steps taken.</span></div>
               <div class="term-line tc-blank"></div>
-              <div class="term-line"><span class="tc-dim" style="font-style:italic;">No system changes made. Read-only.</span></div>
+              <div class="term-line"><span class="tc-dim" style="font-style:italic;">No system changes made.
+                  Read-only.</span></div>
             </div>
           </div>
         </div>
@@ -287,15 +301,22 @@
         <div class="wtm-visual">
           <div class="chat-window">
             <div class="chat-bar">
-              <div class="term-dots"><span class="td red"></span><span class="td yellow"></span><span class="td green"></span></div>
+              <div class="term-dots"><span class="td red"></span><span class="td yellow"></span><span
+                  class="td green"></span></div>
               <div class="term-filename">Bank Application - on StackBase</div>
             </div>
             <div class="chat-body">
               <div class="chat-msg user">Why is my liquidity not in line with forecasts this week?</div>
-              <div class="chat-msg bot">Liquidity was $1.2B below forecast this week. The largest drivers were $650M of corporate deposit outflows in EMEA, $300M of additional initial margin posted for rates derivatives, $180M of delayed securities settlements, and $70M of FX funding variance.</div>
-              <div class="chat-msg user">Which liquidity issues are temporary, and which require management action?</div>
-              <div class="chat-msg system">Authenticating your credentials in Liquidity Funding Engine. Logged in…<br/>Authenticating your credentials in Consolidated Ledger. Logged in…</div>
-              <div class="chat-msg bot">Two items appear timing-related and are expected to reverse by Thursday: $180M from delayed securities settlements and $70M from FX funding variance, both of which are expected to normalize without requiring structural management action.</div>
+              <div class="chat-msg bot">Liquidity was $1.2B below forecast this week. The largest drivers were $650M of
+                corporate deposit outflows in EMEA, $300M of additional initial margin posted for rates derivatives,
+                $180M of delayed securities settlements, and $70M of FX funding variance.</div>
+              <div class="chat-msg user">Which liquidity issues are temporary, and which require management action?
+              </div>
+              <div class="chat-msg system">Authenticating your credentials in Liquidity Funding Engine. Logged
+                in…<br />Authenticating your credentials in Consolidated Ledger. Logged in…</div>
+              <div class="chat-msg bot">Two items appear timing-related and are expected to reverse by Thursday: $180M
+                from delayed securities settlements and $70M from FX funding variance, both of which are expected to
+                normalize without requiring structural management action.</div>
             </div>
           </div>
         </div>
@@ -310,70 +331,66 @@
         <div class="wtm-visual">
           <div class="chat-window">
             <div class="chat-bar">
-              <div class="term-dots"><span class="td red"></span><span class="td yellow"></span><span class="td green"></span></div>
+              <div class="term-dots"><span class="td red"></span><span class="td yellow"></span><span
+                  class="td green"></span></div>
               <div class="term-filename">Bank Application - on Stackbase</div>
             </div>
             <div class="chat-body">
               <div class="chat-msg user">How many settlement breaks are outstanding as of this morning?</div>
-              <div class="chat-msg bot">I found 14 reconciliation breaks across 3 trading desks. 3 breaks are aged more than 5 days, which makes them higher priority for review. The largest unresolved break is on the Credit Desk, with an exposure of $2.1M.<br/><br/>Recommended action: perform a focused review of the Credit desk break to identify the issue.</div>
+              <div class="chat-msg bot">I found 14 reconciliation breaks across 3 trading desks. 3 breaks are aged more
+                than 5 days, which makes them higher priority for review. The largest unresolved break is on the Credit
+                Desk, with an exposure of $2.1M.<br /><br />Recommended action: perform a focused review of the Credit
+                desk break to identify the issue.</div>
               <div class="chat-msg user">Go ahead with the review of the Credit break</div>
-              <div class="chat-msg system">Authenticating your credentials in Credit System. Logged in…<br/>Authenticating your credentials in Subledger. Logged in…</div>
-              <div class="chat-msg bot">I reviewed the Credit system for the $2.1M Credit Desk reconciliation break and found the likely root cause.<br/><br/>The break is tied to a credit derivative trade amendment that was captured in the front-office Credit system but did not flow correctly into the downstream finance ledger.</div>
+              <div class="chat-msg system">Authenticating your credentials in Credit System. Logged
+                in…<br />Authenticating your credentials in Subledger. Logged in…</div>
+              <div class="chat-msg bot">I reviewed the Credit system for the $2.1M Credit Desk reconciliation break and
+                found the likely root cause.<br /><br />The break is tied to a credit derivative trade amendment that
+                was captured in the front-office Credit system but did not flow correctly into the downstream finance
+                ledger.</div>
             </div>
           </div>
         </div>
       </div>
+      <section class="workflows-section" id="real-world-workflows">
+        <div class="container">
+          <div class="section-eyebrow reveal">Real-World Workflows</div>
+          <div class="workflow-timeline reveal delay-2">
+            <div class="wt-step">
+              <div class="wt-time">09:00 AM</div>
+              <div class="wt-content">
+                <h4>Break Detected</h4>
+                <p>A $2.1M discrepancy is identified between the ledger and the bank statement.</p>
+              </div>
+            </div>
+            <div class="wt-step">
+              <div class="wt-time">09:01 AM</div>
+              <div class="wt-content">
+                <h4>AI Investigation</h4>
+                <p>StackBase agent reads read-only data from settlements, identifies the missing SWIFT message.</p>
+              </div>
+            </div>
+            <div class="wt-step">
+              <div class="wt-time">09:03 AM</div>
+              <div class="wt-content">
+                <h4>Approval Gate</h4>
+                <p>Agent proposes an adjustment. StackBase pauses execution and requests human authorization.</p>
+              </div>
+            </div>
+            <div class="wt-step">
+              <div class="wt-time">09:05 AM</div>
+              <div class="wt-content">
+                <h4>Execution</h4>
+                <p>Manager approves. Agent executes the adjustment in the ERP system, logs audit trail, and closes the
+                  break.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </section>
 
-  <!-- ════════════════════════════════════════════
-       HOW STACKBASE WORKS (DETAILED)
-  ════════════════════════════════════════════ -->
-  <section class="how-detail-section" id="how-detail">
-    <div class="container">
-      <div class="section-eyebrow reveal">How StackBase Works</div>
-      <h2 class="section-h2 reveal delay-1">Observe real behavior · Extract capabilities · <span class="gradient-text">Validate safety · Deploy to AI agents.</span></h2>
-
-      <div class="how-cards-grid reveal delay-2">
-        <div class="how-detail-card" style="--card-accent: var(--brand);">
-          <div class="hdc-num" style="background: var(--brand);">1</div>
-          <h3>Capture Business Context</h3>
-          <ul class="hdc-list">
-            <li>Connect to Enterprise-wide auth and authz.</li>
-            <li>Observe live UI navigation and user actions</li>
-            <li>Capture Business Context securely</li>
-          </ul>
-        </div>
-        <div class="how-detail-card" style="--card-accent: var(--green-lt);">
-          <div class="hdc-num" style="background: var(--green-lt);">2</div>
-          <h3>Generate &amp; Validate</h3>
-          <ul class="hdc-list">
-            <li>Multi-signal model that will infer business logic</li>
-            <li>Generate equivalent API and MCP tools.</li>
-            <li>Produce Parity Test Cases &amp; Test Results for review</li>
-          </ul>
-        </div>
-        <div class="how-detail-card" style="--card-accent: #818cf8;">
-          <div class="hdc-num" style="background: #818cf8;">3</div>
-          <h3>Control Plane</h3>
-          <ul class="hdc-list">
-            <li>Enforce Policy Engine for API and MCP runtime</li>
-            <li>Enforce Human-in-the-loop controls in place</li>
-            <li>Enforce Identity &amp; Access Controls</li>
-          </ul>
-        </div>
-        <div class="how-detail-card" style="--card-accent: #c084fc;">
-          <div class="hdc-num" style="background: #c084fc;">4</div>
-          <h3>Deploy</h3>
-          <ul class="hdc-list">
-            <li>Human review queue operational</li>
-            <li>Every call traceable and auditable</li>
-            <li>Monitoring at an agent / API / MCP call level</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- ════════════════════════════════════════════
        VALUE PROPS — 3 big pillars
@@ -415,10 +432,55 @@
   </section>
 
 
-  <!-- how it works part 2
-  -->
+  <!-- ════════════════════════════════════════════
+       HOW STACKBASE WORKS (DETAILED)
+  ════════════════════════════════════════════ -->
+  <section class="how-detail-section" id="how-detail">
+    <div class="container">
+      <div class="section-eyebrow reveal">How StackBase Works</div>
+      <h2 class="section-h2 reveal delay-1">Observe real behavior · Extract capabilities · <span
+          class="gradient-text">Validate safety · Deploy to AI agents.</span></h2>
 
-
+      <div class="how-cards-grid reveal delay-2">
+        <div class="how-detail-card" style="--card-accent: var(--brand);">
+          <div class="hdc-num" style="background: var(--brand);">1</div>
+          <h3>Capture Business Context</h3>
+          <ul class="hdc-list">
+            <li>Connect to Enterprise-wide auth and authz.</li>
+            <li>Observe live UI navigation and user actions</li>
+            <li>Capture Business Context securely</li>
+          </ul>
+        </div>
+        <div class="how-detail-card" style="--card-accent: var(--green-lt);">
+          <div class="hdc-num" style="background: var(--green-lt);">2</div>
+          <h3>Generate &amp; Validate</h3>
+          <ul class="hdc-list">
+            <li>Multi-signal model that will infer business logic</li>
+            <li>Generate equivalent API and MCP tools.</li>
+            <li>Produce Parity Test Cases &amp; Test Results for review</li>
+          </ul>
+        </div>
+        <div class="how-detail-card" style="--card-accent: #818cf8;">
+          <div class="hdc-num" style="background: #818cf8;">3</div>
+          <h3>Control Plane</h3>
+          <ul class="hdc-list">
+            <li>Enforce Policy Engine for API and MCP runtime</li>
+            <li>Enforce Human-in-the-loop controls in place</li>
+            <li>Enforce Identity &amp; Access Controls</li>
+          </ul>
+        </div>
+        <div class="how-detail-card" style="--card-accent: #c084fc;">
+          <div class="hdc-num" style="background: #c084fc;">4</div>
+          <h3>Deploy</h3>
+          <ul class="hdc-list">
+            <li>Human review queue operational</li>
+            <li>Every call traceable and auditable</li>
+            <li>Monitoring at an agent / API / MCP call level</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- ════════════════════════════════════════════
        ALTERNATING SECTION 1 — How it works (visual left, text right)
@@ -477,17 +539,15 @@
           </div>
         </div>
         <div class="alt-text reveal delay-2">
-          <div class="section-eyebrow">How It Works</div>
           <h2 class="alt-h2">Four steps.<br /><span class="gradient-text">Zero code changes.</span></h2>
           <p>StackBase Systems connects to your existing running systems and maps them completely — no APIs required, no
             modifications to production, no regression risk.</p>
           <ul class="check-list">
-            <li>Connect to Java, .NET, SAP, Temenos, Guidewire — any system with a UI layer</li>
+            <li>Connect to any system with a UI layer</li>
             <li>Auto-generates MCP-compatible tool wrappers for every workflow</li>
             <li>Proves parity across 2,000+ parallel runs before go-live</li>
             <li>Agents take on role-scoped identities with full audit trails</li>
           </ul>
-          <a href="mailto:jc@stackbase.systems" class="btn-text-link">See a live demo →</a>
         </div>
       </div>
     </div>
@@ -517,7 +577,7 @@
               class="tc-flag">--env</span><span class="tc-dim">=prod</span>
           </div>
           <div class="term-line tc-blank"></div>
-          <div class="term-line"><span class="tc-tag info">[OBSERVE]</span> <span class="tc-dim">Temenos T24 · Captured
+          <div class="term-line"><span class="tc-tag info">[OBSERVE]</span> <span class="tc-dim">Captured
               22 steps · 6 validations · 3 approval gates</span></div>
           <div class="term-line"><span class="tc-tag info">[GENERATE]</span> <span class="tc-dim">MCP tool:
               tools/trade_settlement_v4 · 0 production files touched</span></div>
@@ -549,346 +609,6 @@
           </div>
         </div>
       </div>
-  </section>
-
-  <!-- ════════════════════════════════════════════
-       USE CASES — TABS
-  ════════════════════════════════════════════ -->
-  <section class="usecases-section" id="usecases">
-    <div class="container">
-      <div class="section-eyebrow reveal">Use Cases</div>
-      <h2 class="section-h2 reveal delay-1">Built for the workflows<br /><span class="gradient-text">that can't afford
-          to fail.</span></h2>
-
-      <div class="uc-tabs reveal delay-2">
-        <div class="uc-tab-nav">
-          <button class="uc-tab active" data-uc="trading">Trade Operations</button>
-          <button class="uc-tab" data-uc="risk">Risk Management</button>
-          <button class="uc-tab" data-uc="compliance">Compliance</button>
-          <button class="uc-tab" data-uc="finance">Finance &amp; Treasury</button>
-        </div>
-
-        <div class="uc-panels">
-          <div class="uc-panel active" id="uc-trading">
-            <div class="uc-panel-text">
-              <h3>Fully automated trade settlement</h3>
-              <p>From pre-settlement checks to SWIFT dispatch — AI agents book, settle, and reconcile trades across
-                Temenos T24, Murex, and Bloomberg with zero human steps.</p>
-              <ul class="uc-bullets">
-                <li>Trade booking &amp; confirmation</li>
-                <li>Pre-settlement balance checks</li>
-                <li>SWIFT MT103/202 dispatch</li>
-                <li>Reconciliation &amp; break resolution</li>
-              </ul>
-              <div class="uc-impact">
-                <div class="uc-kpi"><span>10×</span>
-                  <div>Faster than human ops</div>
-                </div>
-                <div class="uc-kpi"><span>$2M+</span>
-                  <div>Saved per year per desk</div>
-                </div>
-              </div>
-            </div>
-            <div class="uc-panel-visual">
-              <div class="uc-card-stack">
-                <div class="uc-card">
-                  <div class="uc-card-header"><span class="badge-ok">DONE</span> TRD-00881A</div>
-                  <div class="uc-card-row"><span>System</span><span>Temenos T24</span></div>
-                  <div class="uc-card-row"><span>Steps</span><span>22/22 ✓</span></div>
-                  <div class="uc-card-row"><span>Time</span><span>3.8s</span></div>
-                </div>
-                <div class="uc-card ghost">
-                  <div class="uc-card-header"><span class="badge-run">RUN</span> TRD-00882B</div>
-                  <div class="uc-card-row"><span>System</span><span>Murex MX.3</span></div>
-                  <div class="uc-card-row muted"><span>Steps</span><span>14/22 …</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="uc-panel" id="uc-risk">
-            <div class="uc-panel-text">
-              <h3>AI-driven risk approval workflows</h3>
-              <p>Route and approve risk breaches, margin calls, and limit exceptions through role-scoped AI agents that
-                mirror the exact approval chains your risk managers use.</p>
-              <ul class="uc-bullets">
-                <li>Real-time limit monitoring &amp; breach detection</li>
-                <li>Escalation workflow automation</li>
-                <li>Margin call processing</li>
-                <li>VaR reporting &amp; P&amp;L attribution</li>
-              </ul>
-              <div class="uc-impact">
-                <div class="uc-kpi"><span>85%</span>
-                  <div>Reduction in manual approvals</div>
-                </div>
-                <div class="uc-kpi"><span>&lt;1s</span>
-                  <div>Risk decision latency</div>
-                </div>
-              </div>
-            </div>
-            <div class="uc-panel-visual">
-              <div class="uc-card-stack">
-                <div class="uc-card">
-                  <div class="uc-card-header"><span class="badge-ok">APPROVED</span> RISK-443</div>
-                  <div class="uc-card-row"><span>Type</span><span>Limit Breach</span></div>
-                  <div class="uc-card-row"><span>Decision</span><span>Auto-approved ✓</span></div>
-                  <div class="uc-card-row"><span>Latency</span><span>0.6s</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="uc-panel" id="uc-compliance">
-            <div class="uc-panel-text">
-              <h3>Regulatory reporting on autopilot</h3>
-              <p>From EMIR to MiFID II — agents extract, format, and submit regulatory filings from your existing
-                operations systems with perfect accuracy and full audit trails.</p>
-              <ul class="uc-bullets">
-                <li>EMIR trade reporting to DTCC/REGIS-TR</li>
-                <li>MiFID II transaction reporting</li>
-                <li>SFTR securities financing</li>
-                <li>On-prem / VPC — zero data egress</li>
-              </ul>
-              <div class="uc-impact">
-                <div class="uc-kpi"><span>0</span>
-                  <div>Missed reporting deadlines</div>
-                </div>
-                <div class="uc-kpi"><span>100%</span>
-                  <div>Audit trail completeness</div>
-                </div>
-              </div>
-            </div>
-            <div class="uc-panel-visual">
-              <div class="uc-card-stack">
-                <div class="uc-card">
-                  <div class="uc-card-header"><span class="badge-ok">SUBMITTED</span> EMIR-7441</div>
-                  <div class="uc-card-row"><span>Regime</span><span>EMIR Refit</span></div>
-                  <div class="uc-card-row"><span>TR</span><span>DTCC → submitted</span></div>
-                  <div class="uc-card-row"><span>Deadline</span><span>T+1 ✓ on time</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="uc-panel" id="uc-finance">
-            <div class="uc-panel-text">
-              <h3>Finance &amp; treasury automation</h3>
-              <p>Automate month-end close, nostro reconciliation, and intercompany settlements. Agents handle the entire
-                workflow end-to-end — from SAP to ledger posting.</p>
-              <ul class="uc-bullets">
-                <li>Month-end close &amp; reconciliation</li>
-                <li>Nostro/vostro position management</li>
-                <li>Intercompany settlements</li>
-                <li>Ledger posting &amp; AP/AR automation</li>
-              </ul>
-              <div class="uc-impact">
-                <div class="uc-kpi"><span>4 days</span>
-                  <div>Faster month-end close</div>
-                </div>
-                <div class="uc-kpi"><span>$1M+</span>
-                  <div>Annual FTE savings</div>
-                </div>
-              </div>
-            </div>
-            <div class="uc-panel-visual">
-              <div class="uc-card-stack">
-                <div class="uc-card">
-                  <div class="uc-card-header"><span class="badge-ok">CLOSED</span> ME-FEB-2025</div>
-                  <div class="uc-card-row"><span>System</span><span>SAP S/4HANA</span></div>
-                  <div class="uc-card-row"><span>Postings</span><span>1,422 ✓</span></div>
-                  <div class="uc-card-row"><span>Duration</span><span>14 min (was 4 days)</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ════════════════════════════════════════════
-       ALTERNATING SECTION 2 — text left, visual right
-  ════════════════════════════════════════════ -->
-  <section class="alt-section alt-flip" id="features">
-    <div class="container">
-      <div class="alt-row">
-        <div class="alt-text reveal">
-          <div class="section-eyebrow">Infrastructure</div>
-          <h2 class="alt-h2">Serious infrastructure.<br /><span class="gradient-text">Controlled Deploys</span>
-          </h2>
-          <p>StackBase Systems is built from the ground up for regulated environments. Grounded in published technical
-            research
-            from Columbia University.</p>
-          <div class="feat-list">
-            <div class="feat-item">
-              <div class="feat-icon">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round">
-                  <path d="M9 11l3 3L22 4" />
-                  <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" />
-                </svg>
-              </div>
-              <div>
-                <div class="feat-title">Full Auditability</div>
-                <div class="feat-desc">Every execution logged, immutable, exportable for EMIR, MiFID, and internal
-                  audit.</div>
-              </div>
-            </div>
-            <div class="feat-item">
-              <div class="feat-icon">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round">
-                  <rect x="3" y="11" width="18" height="11" rx="2" />
-                  <path d="M7 11V7a5 5 0 0110 0v4" />
-                </svg>
-              </div>
-              <div>
-                <div class="feat-title">On-Prem / VPC Deployment</div>
-                <div class="feat-desc">Your data never leaves your environment. GSIB-ready, no cloud dependency
-                  required.</div>
-              </div>
-            </div>
-            <div class="feat-item">
-              <div class="feat-icon">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round">
-                  <circle cx="12" cy="12" r="10" />
-                  <polyline points="12 6 12 12 16 14" />
-                </svg>
-              </div>
-              <div>
-                <div class="feat-title">12-Week Pilot to Production</div>
-                <div class="feat-desc">One workflow. Prove ROI. Expand across divisions without a transformation
-                  programme.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="alt-visual reveal delay-2">
-          <div class="infra-card">
-            <div class="infra-row">
-              <div class="infra-badge">DEPLOY MODE</div>
-              <div class="infra-badge brand">ON-PREM</div>
-            </div>
-            <div class="infra-block">
-              <div class="ib-title">StackBase Systems Control Plane</div>
-              <div class="ib-nodes">
-                <div class="ib-node">Observe Engine</div>
-                <div class="ib-node">Tool Registry</div>
-                <div class="ib-node">Validation Suite</div>
-                <div class="ib-node">RBAC &amp; Audit</div>
-              </div>
-            </div>
-            <div class="infra-connector">
-              <div class="ic-line"></div>
-              <div class="ic-arrow">↓</div>
-            </div>
-            <div class="infra-block lower">
-              <div class="ib-title">Your Infrastructure</div>
-              <div class="ib-nodes">
-                <div class="ib-node muted">Temenos T24</div>
-                <div class="ib-node muted">SAP S/4HANA</div>
-                <div class="ib-node muted">Custom Java</div>
-                <div class="ib-node muted">Murex</div>
-              </div>
-            </div>
-            <div class="infra-footer">
-              <span class="if-tag">✓ Zero production modifications</span>
-              <span class="if-tag">✓ Full audit log</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ════════════════════════════════════════════
-       CONTROL PLANE
-════════════════════════════════════════════ -->
-  <section class="control-plane-section" id="control-plane">
-    <div class="container">
-
-      <div class="section-eyebrow reveal">Control Plane</div>
-
-      <h2 class="section-h2 reveal delay-1">
-        Every action governed.<br>
-        <span class="gradient-text">Before execution.</span>
-      </h2>
-
-      <p class="section-sub reveal delay-2">
-        Identity, policy, approval, monitoring, and auditability —
-        enforced before any AI action reaches production workflows.
-      </p>
-
-      <div class="term-window reveal delay-3">
-
-        <div class="term-bar">
-          <div class="term-dots">
-            <span class="td red"></span>
-            <span class="td yellow"></span>
-            <span class="td green"></span>
-          </div>
-
-          <div class="term-filename">
-            stackbase.control_plane.prod
-          </div>
-
-          <div class="term-tag">LIVE</div>
-        </div>
-
-        <div class="term-body">
-
-          <div class="term-line">
-            <span class="tc-tag exec">[REQUEST]</span>
-            <span class="tc-white">Close Settlement Break #881</span>
-          </div>
-
-          <div class="term-line tc-blank"></div>
-
-          <div class="term-line">
-            <span class="tc-tag info">[IDENTITY]</span>
-            <span class="tc-dim">
-              Authenticated as settlements_manager · EMEA Operations
-            </span>
-          </div>
-
-          <div class="term-line">
-            <span class="tc-tag info">[POLICY]</span>
-            <span class="tc-dim">
-              Settlement workflow policy v2.4 passed
-            </span>
-          </div>
-
-          <div class="term-line">
-            <span class="tc-tag info">[APPROVAL]</span>
-            <span class="tc-dim">
-              Human approval required for exposure > $1M
-            </span>
-          </div>
-
-          <div class="term-line">
-            <span class="tc-tag info">[APPROVED]</span>
-            <span class="tc-green">
-              Approved by Operations Director
-            </span>
-          </div>
-
-          <div class="term-line">
-            <span class="tc-tag info">[AUDIT]</span>
-            <span class="tc-dim">
-              Audit trail created · Trace ID SBX-44318
-            </span>
-          </div>
-
-          <div class="term-line tc-blank"></div>
-
-          <div class="term-line">
-            <span class="tc-done">✓ EXECUTION AUTHORIZED</span>
-          </div>
-
-        </div>
-      </div>
-
       <table class="gtm-table reveal delay-4" style="margin-top:32px;">
         <thead>
           <tr>
@@ -931,8 +651,9 @@
         </tbody>
       </table>
 
-    </div>
   </section>
+
+
 
   <!-- ════════════════════════════════════════════
        BUILT FOR EVERY LEVEL
@@ -940,168 +661,71 @@
   <section class="levels-section" id="levels">
     <div class="container">
       <div class="section-eyebrow reveal">Built for Every Level of the Organization</div>
-      <h2 class="section-h2 reveal delay-1">Empower your teams.<br /><span class="gradient-text">Govern their tools.</span></h2>
+      <h2 class="section-h2 reveal delay-1">Empower your teams.<br /><span class="gradient-text">Govern their
+          tools.</span></h2>
       <div class="levels-grid reveal delay-2">
         <div class="level-card">
-          <div class="lc-icon orange"><img src="branding/Icons/SBS_Icons-07.svg" width="24" height="24" alt="Finance Icon" /></div>
-          <h3>Finance Leaders</h3>
+          <div class="lc-icon orange"><img src="branding/Icons/SBS_Icons-07.svg" width="24" height="24"
+              alt="Finance Icon" /></div>
+          <h3>Finance</h3>
           <ul class="lc-list">
-            <li>Reconciliations</li>
-            <li>Ledger investigations</li>
-            <li>Variance analysis</li>
-            <li>Liquidity reporting</li>
+            <li>Invoice & Payment</li>
+            <li>Customer & AR Aging</li>
+            <li>Vendor & AP Bill</li>
           </ul>
         </div>
         <div class="level-card">
-          <div class="lc-icon brand"><img src="branding/Icons/shield.svg" width="24" height="24" alt="Compliance Icon" /></div>
-          <h3>Compliance Teams</h3>
+          <div class="lc-icon brand"><img src="branding/Icons/dash.svg" width="24" height="24" alt="Sales Icon" /></div>
+          <h3>Sales</h3>
           <ul class="lc-list">
-            <li>Policy monitoring</li>
-            <li>Exception management</li>
-            <li>Escalations</li>
-            <li>Audit evidence</li>
+            <li>Account & Opportunity</li>
+            <li>Pipeline & Booking</li>
+            <li>Forecast & Renewal</li>
           </ul>
         </div>
         <div class="level-card">
-          <div class="lc-icon green"><img src="branding/Icons/bolt.svg" width="24" height="24" alt="Operations Icon" /></div>
-          <h3>Operations Teams</h3>
+          <div class="lc-icon green"><img src="branding/Icons/cloud.svg" width="24" height="24" alt="Marketing Icon" />
+          </div>
+          <h3>Marketing</h3>
           <ul class="lc-list">
-            <li>Settlement investigations</li>
-            <li>Trade operations</li>
-            <li>Workflow automation</li>
-            <li>Root-cause analysis</li>
+            <li>Campaign & Lead</li>
+            <li>MQL & CAC</li>
+            <li>Channel & Attribution</li>
+          </ul>
+        </div>
+        <div class="level-card">
+          <div class="lc-icon orange"><img src="branding/Icons/doc.svg" width="24" height="24" alt="HR Icon" /></div>
+          <h3>HR</h3>
+          <ul class="lc-list">
+            <li>Employee & Candidate</li>
+            <li>Role & Compensation</li>
+            <li>Performance Review</li>
+          </ul>
+        </div>
+        <div class="level-card">
+          <div class="lc-icon brand"><img src="branding/Icons/gear.svg" width="24" height="24" alt="Operations Icon" />
+          </div>
+          <h3>Operations</h3>
+          <ul class="lc-list">
+            <li>Ticket & Project</li>
+            <li>SLA & Vendor</li>
+            <li>Contract & Work Order</li>
+          </ul>
+        </div>
+        <div class="level-card">
+          <div class="lc-icon green"><img src="branding/Icons/stack.svg" width="24" height="24" alt="Executive Icon" />
+          </div>
+          <h3>Executive Intelligence</h3>
+          <ul class="lc-list">
+            <li>KPI & Metric</li>
+            <li>Goal & Risk</li>
+            <li>Initiative & Decision</li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ════════════════════════════════════════════
-       HOW STACKBASE WORKS (ANIMATED DIAGRAM)
-  ════════════════════════════════════════════ -->
-  <section class="hsw-section" id="how-stackbase-works">
-    <div class="container">
-      <div class="section-eyebrow reveal">How StackBase Works</div>
-      <h2 class="section-h2 reveal delay-1">The bridge between<br /><span class="gradient-text">systems and agents.</span></h2>
-      <div class="hsw-diagram-container reveal delay-2">
-        <div class="hsw-diagram">
-          <div class="hsw-node">Enterprise Systems</div>
-          <div class="hsw-arrow">↓</div>
-          <div class="hsw-node highlight">StackBase Capture Layer</div>
-          <div class="hsw-arrow">↓</div>
-          <div class="hsw-node highlight">Business Context Engine</div>
-          <div class="hsw-arrow">↓</div>
-          <div class="hsw-node highlight">Governance &amp; Validation Layer</div>
-          <div class="hsw-arrow">↓</div>
-          <div class="hsw-node">Executing AI Agents</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ════════════════════════════════════════════
-       REAL-WORLD WORKFLOWS
-  ════════════════════════════════════════════ -->
-  <section class="workflows-section" id="real-world-workflows">
-    <div class="container">
-      <div class="section-eyebrow reveal">Real-World Workflows</div>
-      <h2 class="section-h2 reveal delay-1">Settlement Break<br /><span class="gradient-text">Investigation.</span></h2>
-      <div class="workflow-timeline reveal delay-2">
-        <div class="wt-step">
-          <div class="wt-time">09:00 AM</div>
-          <div class="wt-content">
-            <h4>Break Detected</h4>
-            <p>A $2.1M discrepancy is identified between the ledger and the bank statement.</p>
-          </div>
-        </div>
-        <div class="wt-step">
-          <div class="wt-time">09:01 AM</div>
-          <div class="wt-content">
-            <h4>AI Investigation</h4>
-            <p>StackBase agent reads read-only data from settlements, identifies the missing SWIFT message.</p>
-          </div>
-        </div>
-        <div class="wt-step">
-          <div class="wt-time">09:03 AM</div>
-          <div class="wt-content">
-            <h4>Approval Gate</h4>
-            <p>Agent proposes an adjustment. StackBase pauses execution and requests human authorization.</p>
-          </div>
-        </div>
-        <div class="wt-step">
-          <div class="wt-time">09:05 AM</div>
-          <div class="wt-content">
-            <h4>Execution</h4>
-            <p>Manager approves. Agent executes the adjustment in the ERP system, logs audit trail, and closes the break.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ════════════════════════════════════════════
-       ENTERPRISE-GRADE CONTROLS
-  ════════════════════════════════════════════ -->
-  <section class="controls-section" id="enterprise-controls">
-    <div class="container">
-      <div class="section-eyebrow reveal">Enterprise-Grade Controls</div>
-      <h2 class="section-h2 reveal delay-1">Security isn't an afterthought.<br /><span class="gradient-text">It's the foundation.</span></h2>
-      <div class="controls-grid reveal delay-2">
-        <div class="control-card">
-          <h4>Identity &amp; Access</h4>
-          <p>Agents inherit the exact permissions and scopes of the authorizing user.</p>
-        </div>
-        <div class="control-card">
-          <h4>RBAC Policies</h4>
-          <p>Strict role-based access controls dictate which systems and actions an agent can access.</p>
-        </div>
-        <div class="control-card">
-          <h4>Human-in-the-Loop</h4>
-          <p>Configurable approval gates for high-value or high-risk actions.</p>
-        </div>
-        <div class="control-card">
-          <h4>Immutable Audit Log</h4>
-          <p>Every read, write, and approval is cryptographically logged for compliance.</p>
-        </div>
-        <div class="control-card">
-          <h4>VPC / On-Prem Deployment</h4>
-          <p>Keep your data inside your perimeter with our flexible deployment models.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-  <!-- ════════════════════════════════════════════
-       METRICS / SOCIAL PROOF
-  ════════════════════════════════════════════ -->
-  <section class="metrics-section">
-    <div class="container">
-      <div class="metrics-grid">
-        <div class="metric-card reveal delay-1">
-          <div class="mc-val"><span class="mc-count" data-target="10">0</span><span class="mc-unit">×</span></div>
-          <div class="mc-label">Faster than manual operations</div>
-          <div class="mc-sub">Measured across trade settlement workflows in live pilots</div>
-        </div>
-        <div class="metric-card reveal delay-2">
-          <div class="mc-val"><span class="mc-count" data-target="100">0</span><span class="mc-unit">%</span></div>
-          <div class="mc-label">Parity before every deployment</div>
-          <div class="mc-sub">Parallel validation across 2,000+ execution runs minimum</div>
-        </div>
-        <div class="metric-card reveal delay-3">
-          <div class="mc-val"><span class="mc-count" data-target="0">0</span></div>
-          <div class="mc-label">Production code changes required</div>
-          <div class="mc-sub">StackBase Systems wraps — never modifies — your existing systems</div>
-        </div>
-        <div class="metric-card reveal delay-4">
-          <div class="mc-val"><span class="mc-count" data-target="12">0</span><span class="mc-unit">wk</span></div>
-          <div class="mc-label">Pilot to production</div>
-          <div class="mc-sub">From first conversation to live AI agents executing in prod</div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- ════════════════════════════════════════════
        FINAL CTA
@@ -1142,17 +766,10 @@
           </div>
           <p class="fb-desc">The AI execution layer for regulated enterprise systems. Connecting reasoning to production
             workflows safely.</p>
+          <p class="fb-copy">© 2026 StackBase Systems. All rights reserved.</p>
         </div>
 
         <div class="footer-links-grid">
-          <div class="fl-col">
-            <div class="fl-title">Use Cases</div>
-            <a href="#uc-trading" class="footer-uc-link" data-uc="trading">Trade Operations</a>
-            <a href="#uc-risk" class="footer-uc-link" data-uc="risk">Risk Management</a>
-            <a href="#uc-compliance" class="footer-uc-link" data-uc="compliance">Compliance</a>
-            <a href="#uc-finance" class="footer-uc-link" data-uc="finance">Finance &amp; Treasury</a>
-          </div>
-
           <div class="fl-col">
             <div class="fl-title">Platform</div>
             <a href="#exec-gap">The Gap</a>
@@ -1162,8 +779,8 @@
           </div>
 
           <div class="fl-col">
-            <div class="fl-title">Connect</div>
-            <a href="mailto:jc@stackbase.systems" class="brand-lt">Request Access</a>
+            <div class="fl-title">Contact</div>
+            <a href="mailto:jc@stackbase.systems" class="brand-lt">Mail</a>
           </div>
         </div>
       </div>

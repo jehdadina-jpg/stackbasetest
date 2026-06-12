@@ -270,7 +270,7 @@ nav.scrolled {
   gap: 4px;
   font-size: 13.5px;
   font-weight: 500;
-  color: var(--text2);
+  color: var(--amber);
   text-decoration: none;
   padding: 8px 14px;
   border-radius: var(--r);
@@ -278,7 +278,7 @@ nav.scrolled {
 }
 
 .nav-links a:hover {
-  color: var(--text);
+  color: var(--amber);
   background: rgba(255, 255, 255, 0.05);
 }
 
@@ -2180,7 +2180,7 @@ footer {
 
 .footer-links-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 32px;
 }
 
@@ -2210,6 +2210,29 @@ footer {
   text-decoration: none;
   transition: color 0.2s, transform 0.2s;
   display: inline-block;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.fb-socials {
+  display: flex;
+  gap: 24px;
+}
+
+.fb-socials a {
+  font-size: 13px;
+  color: var(--text3);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.fb-socials a:hover {
+  color: var(--text);
 }
 
 .faq-section {
@@ -2950,6 +2973,12 @@ footer {
 
   .footer-links-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
   }
 
   .cta-h2 {
