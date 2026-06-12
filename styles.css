@@ -71,7 +71,7 @@
   --r-xl: 20px;
 
   /* ── Layout ── */
-  --max-w: 1160px;
+  --max-w: 90%;
 }
 
 html {
@@ -90,7 +90,8 @@ body {
 
 /* ── Shared Utils ─────────────────────────────── */
 .container {
-  max-width: var(--max-w);
+  width: var(--max-w);
+  max-width: 1560px;
   margin: 0 auto;
   padding: 0 40px;
 }
@@ -208,7 +209,8 @@ nav.scrolled {
 }
 
 .nav-inner {
-  max-width: calc(var(--max-w) + 80px);
+  width: var(--max-w);
+  max-width: 1640px;
   margin: 0 auto;
   padding: 0 40px;
   height: 64px;
